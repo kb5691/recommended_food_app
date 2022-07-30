@@ -32,6 +32,8 @@ group :development, :test do
   # RuboCop
   gem "rubocop-performance", require: false
   gem "rubocop-rails", require: false
+  # ログイン機能
+  gem "devise"
 end
 
 group :development do
