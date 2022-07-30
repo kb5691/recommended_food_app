@@ -35,8 +35,8 @@ group :development, :test do
   # ログイン機能
   gem "devise"
   # 多言語対応
-  gem "rails-i18n", "~> 6.0"
   gem "devise-i18n"
+  gem "rails-i18n", "~> 6.0"
 end
 
 group :development do
