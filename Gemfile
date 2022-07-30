@@ -34,6 +34,9 @@ group :development, :test do
   gem "rubocop-rails", require: false
   # ログイン機能
   gem "devise"
+  # 多言語対応
+  gem "rails-i18n", "~> 6.0"
+  gem "devise-i18n"
 end
 
 group :development do
