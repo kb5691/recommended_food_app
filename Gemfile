@@ -25,10 +25,13 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-
+  # デバッグ
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'pry-doc'
+  # RuboCop
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-performance', require: false
 end
 
 group :development do
