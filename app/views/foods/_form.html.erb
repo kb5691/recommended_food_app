@@ -3,6 +3,7 @@
     <%= form.label :name, "料理名" %>
     <%= form.text_field :name, required: true %>
   </p>
+  <p><%= form.file_field :image, accept: "image/png,image/jpg,image/gif" %></p>
   <p>
     <%= form.label :comment, "コメント" %>
     <%= form.text_area :comment %>

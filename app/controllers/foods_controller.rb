@@ -33,7 +33,7 @@ class FoodsController < ApplicationController
   private
 
   def post_params
-    params.require(:food).permit(:name, :comment)
+    params.require(:food).permit(:name, :image, :comment)
   end
 
   def set_food
